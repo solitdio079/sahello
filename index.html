@@ -5,55 +5,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <title>Sahello</title>
+    <link rel="stylesheet" href="style.css">
+       
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <title>Sahello</title>
 </head>
 
 <body>
-    <header>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Sahello</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">A Propos de Nous</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Produits</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <div class="container-fluid" style="margin-bottom: 50px;">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Sahello</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" href="#">Accueil</span></a>
+                            <a class="nav-link" href="#">Produits</a>
+                            <a class="nav-link" href="#">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
 
-    </header>
+        </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-9">
+                    <main>
+                        <div class="content">
+                            <h1 class="anim1"><span>Nous apportons les</span> <span>les delices du sahel partout</span> <span>and
+                                reality</span></h1>
+                            <p class="anim1">Plus d'info ici.Ceci est juste un test de design. Tout est under control
+                            </p>
+                            <a href="#" class="anim1" id="cta">Faire Disparaitre</a>
+                        </div>
+                    </main>
 
-    <section class="col-12 animation">
-        <img class="paper-plane" src="./paper.png" alt="paper-plane">
-    </section>
+                </div>
+                <div class="col-12 col-md-3">
+                    <aside>
 
-    <footer>
-        <h1>Wooo</h1>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js" integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js" integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js" integrity="sha512-pvDW4tehKKsohH97164HwKwRGFpzayEFWTVbk8HuUoLIQ7Jp+WLN5XYokVuoCj2aT6dy8ihbW8SRTG1k0W4mSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js" integrity="sha512-ocsFo48WU8Xq6Y1Lwi7psXRAujG9E4TKNR4q1DbrKzaaxOMTEoao/a+mDoB+cYzY4lwbyxvqjkp/ZA1/MNlfsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js" integrity="sha512-tSIDeirKC6suYILHqqPuZH3s0MvD4a5vCHXhBIcdmq4gQXZ2IB3fEYA5x2f3D2p/CbSqzKEvuTEVbS5VZ2u+ew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js" integrity="sha512-plyexAULVlTExvDn2yUZFJV9F8q+53MC/GpU9dEuNGXmrrI3J8Rcffjvxg3OOBALBvF+UILPLIBEoCeF2maqTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="app.js"></script>
+                        <img class="swirl" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/swirl.png" alt="Swirl Graphic">
+
+                    </aside>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script>
+            var rule = CSSRulePlugin.getRule("span:after");
+
+
+            /* gsap.from('.anim1', {
+                 opacity: 0,
+                 duration: 1,
+                 y: -50,
+                 ease: 'elastic(1,0.3)',
+                 stagger: 0.6
+             });
+             gsap.from('img', {
+                 duration: 1,
+                 y: 30,
+                 opacity: 0,
+                 delay: 1.4
+             });
+             gsap.to(rule, {
+                 cssRule: {
+                     scaleY: 0
+                 },
+                 duration: 1
+             });
+             gsap.from('aside', {
+                 duration: 1,
+                 delay: 1.1,
+                 backgroundPosition: '200px 0px',
+                 opacity: 0
+             })*/
+            var tl = gsap.timeline({
+                default: {
+                    duration: 1
+                }
+            });
+            tl.from(".anim1", {
+                y: -50,
+                ease: 'elastic(1,0.3)',
+                stagger: .6,
+                opacity: 0
+            }).to(rule, {
+                duration: 1.8,
+                cssRule: {
+                    scaleY: 0
+                }
+
+            }, "-=2.2")
+
+            .from("img", {
+                    y: 30,
+                    opacity: 0
+                }, "-=.5")
+                .from("aside", {
+                    backgroundPosition: '200px 0px',
+                    opacity: 0
+                }, "-=1.5");
+
+
+            document.getElementById("cta").addEventListener('click', () => {
+                tl.reversed() ? tl.play() : tl.reverse();
+            })
+        </script>
+        
 </body>
 
 </html>
+
+  
