@@ -1,81 +1,104 @@
+
 body {
-  height: 100%;
-  margin: 0;
-  font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
 }
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.header {
+    background: url('images/carousel1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
 }
 
-.line {
-  position: absolute;
+.header .container-fluid {
+    padding: 0 15%;
+    background: #8d4c0f;
+    min-height: 215px;
+    position: absolute;
+    bottom: 0;
 }
 
-main {
-  margin-left: 20%;
-  height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  place-content: center;
+.header .container-fluid .row {
+    display: flex;
+    justify-content: space-between;
+    color: #ffcc66;
 }
 
-main .content {
-  width: 70%;
+.about-wrapper {
+    margin: 50px auto;
+    min-height: 375px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-main .content h1 {
-  font-size: 3em;
-  position: relative;
+.right {
+    width: 50%;
+    padding: 15px;
 }
 
-main .content h1 span {
-  display: block;
+.left {
+    width: 50%;
+    padding: 15px;
 }
 
-main .content p {
-  font-size: 1.2em;
-  width: 80%;
-  line-height: 1.7em;
-  margin-bottom: 2em;
+.variety-wrapper .row {
+    max-height: 175px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
-aside {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/windows.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+.type-container {
+    margin: 0 auto;
+    max-width: 20%;
 }
 
-img {
-  width: 34%;
-  position: absolute;
-  right: 15%;
-  top: 20%;
+.variety-wrapper img {
+    border: 1px #ffcc66 solid;
+    padding: 10px;
+    border-radius: 50%;
+    width: 100%;
 }
 
-#cta {
-  display: inline-block;
-  background: #B100F2;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 1em;
+.variety-wrapper img:hover {
+    border: 0px #ffcc66 solid;
+    border-radius: 50%;
+    width: 100%;
+    transition: .5s;
 }
 
-span:after {
-  content: ' ';
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: white;
-  z-index: 1;
-  -webkit-transform-origin: 100% 0;
-          transform-origin: 100% 0;
+.pre-main {
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.main {
+    padding: 50px;
+    margin-top: 5px;
+    background: url("images/carousel2.jpeg");
+    background-size: cover;
+    margin-bottom: 0em;
+}
+
+.product-wrapper {
+    margin: 0 15px;
+}
+
+.product {
+    background-color: #eee;
+    box-shadow: 1px 0px 5px 0px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 5px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.product img {
+    min-height: 50%;
+    padding: -15px;
+}
